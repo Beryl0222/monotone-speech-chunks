@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monotone-chunks"
+version = "1.0.0"
+description = "Soft monotone chunk alignments with waiting mass and committable streaming subtitles"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.2"]
+
+[project.scripts]
+monotone-chunks = "monotone_chunks.replay:main"
+
+[tool.setuptools.packages.find]
+include = ["monotone_chunks*"]
