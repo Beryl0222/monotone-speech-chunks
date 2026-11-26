@@ -1,0 +1,65 @@
+[
+  {
+    "op": "audio_arrive",
+    "start": 0,
+    "stop": 8,
+    "confirmed_stop": 4
+  },
+  {
+    "op": "soft_forward",
+    "words": [
+      "w0",
+      "w1"
+    ]
+  },
+  {
+    "op": "online_propose",
+    "word": "w0"
+  },
+  {
+    "op": "withdraw_uncommitted",
+    "word": "w0"
+  },
+  {
+    "op": "annotations",
+    "records": [
+      "ann0",
+      "ann1",
+      "ann2",
+      "soft0"
+    ]
+  },
+  {
+    "op": "train_query"
+  },
+  {
+    "op": "revise_annotation",
+    "record": "ann2",
+    "revision": 2
+  },
+  {
+    "op": "audio_arrive",
+    "start": 8,
+    "stop": 18,
+    "confirmed_stop": 17
+  },
+  {
+    "op": "seal_utterance",
+    "last_valid_frame": 16
+  },
+  {
+    "op": "online_propose",
+    "word": "w0"
+  },
+  {
+    "op": "commit",
+    "word": "w0"
+  },
+  {
+    "op": "online_propose",
+    "word": "w1"
+  },
+  {
+    "op": "train_query"
+  }
+]
